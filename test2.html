@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Cards</title>
+    <meta charset=“utf-8” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!--- LINKING OUR CSS FILE --->
+    <link href='css/elements.css' type='text/css' rel='stylesheet' />
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        ;
+        (function($) {
+                'use strict';
+
+                $.fn.waterwheelCarousel = function(startingOptions) {
+
+                        // Adds support for intializing multiple carousels from the same selector group
+                        if (this.length > 1) {
+                            this.each(function() {
+                                $(this).waterwheelCarousel(startingOptions);
+                            });
+                            return this; // allow chaining
+                        }
+
+                        var carousel = this;
+                        var options = {};
+                        var data = {};
+
+                        function initializeCarouselData() {
+                            data = {
+                                itemsContainer: $(carousel),
+                                totalItems: $(carousel).find('img').length,
+                                containerWidth: $(carousel).width(),
+                                containerHeight: $(carousel).height(),
+                                currentCenterItem: null,
+                                previousCenterItem: null,
+                                items: [],
+                                calculations: [],
+                                carouselRotationsLeft: 0,
+                                currentlyMoving: false,
+                                itemsAnimating: 0,
+                                currentSpeed: options.speed,
+                                intervalTimer: null,
+                                currentDirection: 'forward',
+                                leftItemsCount: 0,
+                                rightItemsCount: 0,
+                                performingSetup: true
+                            };
+                            data.itemsContainer.find('img').removeClass(options.activeClassName);
+                        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="carousel">
+        <img src="img/Al.png" alt="Image 1" />
+        <img src="img/Al.png" alt="Image 2" />
+        <img src="img/Al.png" alt="Image 3" />
+
+    </div>
+
+</body>
+
+</html>

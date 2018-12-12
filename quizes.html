@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Quiz</title>
+    <meta charset=“utf-8” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- LINKING OUR CSS FILE --->
+    <link href='css/elements.css' type='text/css' rel='stylesheet' />
+
+    <!---Navbar---->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+
+</head>
+
+<body>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        jQuery('body').css('display', 'none');
+        jQuery(document).ready(function() {
+            jQuery('body').fadeIn();
+            jQuery('a').on('click', function(event) {
+                var thetarget = this.getAttribute('target')
+                if (thetarget != "_blank") {
+                    var thehref = this.getAttribute('href')
+                    event.preventDefault();
+                    jQuery('body').fadeOut(function() {
+                        //alert(thehref)
+                        window.location = thehref
+                    });
+                }
+            });
+        });
+        setTimeout(function() {
+            jQuery('body').fadeIn();
+        }, 1000)
+
+    </script>
+
+    <script>
+        var path = document.querySelector('.path-vert');
+        var length = path.getTotalLength();
+
+    </script>
+
+
+    <nav class="navelement">
+        <ul>
+            <a href="index.html">ELEMENTS</a>
+            <a href="timeline.html">choose</a>
+            <a href="quizes.html">Quiz</a>
+        </ul>
+
+    </nav>
+
+
+    <h1>select an element below to be quizzed on</h1>
+
+
+    <div class="quiz">
+
+        <!--all-->
+        <div class="quiz-0">
+            <img src="img/all-element.png">
+        </div>
+
+        <div class="quiz-btn0">
+            <a class="button btn1" href="o-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn0">
+            <a class="button btn2" href="oxygen.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+
+
+        <div class="grey0"></div>
+
+        <!--oxygen-->
+        <div class="quiz-1">
+            <img src="img/o-element.png">
+        </div>
+
+        <div class="quiz-btn">
+            <a class="button btn1" href="o-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn">
+            <a class="button btn2" href="oxygen.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+
+
+        <div class="grey"></div>
+
+        <!--hydrogen-->
+        <div class="quiz-2">
+            <img src="img/h-element.png">
+        </div>
+
+        <div class="quiz-btn2">
+            <a class="button btn1" href="h-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn2">
+            <a class="button btn2" href="hydrogen.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+        <div class="grey2"></div>
+
+        <!--sodium-->
+        <div class="quiz-3">
+            <img src="img/na-element.png">
+        </div>
+
+        <div class="quiz-btn3">
+            <a class="button btn1" href="na-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn3">
+            <a class="button btn2" href="sodium.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+        <div class="grey3"></div>
+
+        <!--iron-->
+        <div class="quiz-4">
+            <img src="img/fe-element.png">
+        </div>
+
+        <div class="quiz-btn4">
+            <a class="button btn1" href="fe-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn4">
+            <a class="button btn2" href="iron.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+        <div class="grey4"></div>
+
+        <!--chlorine-->
+        <div class="quiz-5">
+            <img src="img/cl-element.png">
+        </div>
+
+        <div class="quiz-btn5">
+            <a class="button btn1" href="cl-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn5">
+            <a class="button btn2" href="chlorine.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+        <div class="grey5"></div>
+
+        <!--nitrogen-->
+        <div class="quiz-6">
+            <img src="img/n-element.png">
+        </div>
+
+        <div class="quiz-btn6">
+            <a class="button btn1" href="n-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn6">
+            <a class="button btn2" href="nitrogen.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+        <div class="grey6"></div>
+
+        <!--aluminium-->
+        <div class="quiz-7">
+            <img src="img/al-element.png">
+        </div>
+
+        <div class="quiz-btn7">
+            <a class="button btn1" href="al-quiz.html" style="vertical-align:middle"><span>Quiz Me </span></a> </div>
+
+        <div class="revise-btn7">
+            <a class="button btn2" href="aluminium.html" style="vertical-align:middle"><span>Revise Again </span></a>
+
+        </div>
+
+        <div class="grey7"></div>
+
+    </div>
+</body>

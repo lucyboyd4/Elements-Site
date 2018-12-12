@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>Quiz</title>
+    <meta charset=“utf-8” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- LINKING OUR CSS FILE --->
+    <link href='css/elements.css' type='text/css' rel='stylesheet' />
+
+    <!---Navbar---->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+
+    <style>
+        div#test {
+            border: #000 1px solid;
+            padding: 10px 40px 40px 40px;
+        }
+    </style>
+    <script>
+        var pos = 0,
+            test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
+        var questions = [
+            ["What does Fe stand for?", "Sodium", "Iron", "Calcium", "B"],
+            ["What is 20 - 9?", "7", "13", "11", "C"],
+            ["What is 7 x 3?", "21", "24", "25", "A"],
+            ["What is 8 / 2?", "10", "2", "4", "C"]
+        ];
+
+        function _(x) {
+            return document.getElementById(x);
+        }
+
+        function renderQuestion() {
+            test = _("test");
+            if (pos >= questions.length) {
+                test.innerHTML = "<h2>You got " + correct + " of " + questions.length + " questions correct</h2>";
+                _("test_status").innerHTML = "Test Completed";
+                pos = 0;
+                correct = 0;
+                return false;
+            }
+            _("test_status").innerHTML = "Question " + (pos + 1) + " of " + questions.length;
+            question = questions[pos][0];
+            chA = questions[pos][1];
+            chB = questions[pos][2];
+            chC = questions[pos][3];
+            test.innerHTML = "<h3>" + question + "</h3>";
+            test.innerHTML += "<input type='radio' name='choices' value='A'> " + chA + "<br>";
+            test.innerHTML += "<input type='radio' name='choices' value='B'> " + chB + "<br>";
+            test.innerHTML += "<input type='radio' name='choices' value='C'> " + chC + "<br><br>";
+            test.innerHTML += "<button onclick='checkAnswer()'>Submit Answer</button>";
+        }
+
+        function checkAnswer() {
+            choices = document.getElementsByName("choices");
+            for (var i = 0; i < choices.length; i++) {
+                if (choices[i].checked) {
+                    choice = choices[i].value;
+                }
+            }
+            if (choice == questions[pos][4]) {
+                correct++;
+            }
+            pos++;
+            renderQuestion();
+        }
+        window.addEventListener("load", renderQuestion, false);
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        jQuery('body').css('display', 'none');
+        jQuery(document).ready(function() {
+            jQuery('body').fadeIn();
+            jQuery('a').on('click', function(event) {
+                var thetarget = this.getAttribute('target')
+                if (thetarget != "_blank") {
+                    var thehref = this.getAttribute('href')
+                    event.preventDefault();
+                    jQuery('body').fadeOut(function() {
+                        //alert(thehref)
+                        window.location = thehref
+                    });
+                }
+            });
+        });
+        setTimeout(function() {
+            jQuery('body').fadeIn();
+        }, 1000)
+
+    </script>
+
+    <script>
+        var path = document.querySelector('.path-vert');
+        var length = path.getTotalLength();
+
+    </script>
+
+
+    <nav class="navelement">
+        <ul>
+            <a class="name-nav" href="index.html">NAME</a>
+            <a href="timeline.html">Revise</a>
+            <a href="quizes.html">Quiz</a>
+        </ul>
+    </nav>
+
+
+    <section>
+        <div id="particles"></div>
+    </section>
+
+    <div class="quiz-width">
+        <h2 id="test_status"></h2>
+        <div id="test"></div>
+    </div>
+
+    <button class="button"><a href="quizes.html">Back to Elements</a></button>
+
+
+
+
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+
+
+</html>

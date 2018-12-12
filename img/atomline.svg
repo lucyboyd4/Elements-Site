@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1274px" height="491px" viewBox="0 0 1274 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F49864" offset="0%"></stop>
+            <stop stop-color="#FDB645" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#E55779" offset="0%"></stop>
+            <stop stop-color="#EF7A6B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#AE4989" offset="0%"></stop>
+            <stop stop-color="#D0417E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#F49864" offset="0%"></stop>
+            <stop stop-color="#EF7A6B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#E55779" offset="0%"></stop>
+            <stop stop-color="#D0417E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#AE4989" offset="0%"></stop>
+            <stop stop-color="#854F8B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="selection" transform="translate(-86.000000, -353.000000)">
+            <g id="Group-3" transform="translate(95.000000, 362.000000)">
+                <g id="Group">
+                    <ellipse id="Oval" stroke="#854F8B" stroke-width="18" cx="1176.9639" cy="207.905612" rx="79.0360976" ry="78.6505102"></ellipse>
+                    <ellipse id="Oval" stroke="#AE4989" stroke-width="18" cx="994.38439" cy="78.6505102" rx="79.0360976" ry="78.6505102"></ellipse>
+                    <ellipse id="Oval" stroke="#D0417E" stroke-width="18" cx="811.804878" cy="207.905612" rx="79.0360976" ry="78.6505102"></ellipse>
+                    <ellipse id="Oval" stroke="#E55779" stroke-width="18" cx="626.774634" cy="78.6505102" rx="79.0360976" ry="78.6505102"></ellipse>
+                    <ellipse id="Oval" stroke="#EF7A6B" stroke-width="18" cx="444.195122" cy="211.563776" rx="79.0360976" ry="78.6505102"></ellipse>
+                    <ellipse id="Oval" stroke="#F49864" stroke-width="18" cx="261.61561" cy="78.6505102" rx="79.0360976" ry="78.6505102"></ellipse>
+                    <ellipse id="Oval" stroke="#FDB645" stroke-width="18" cx="79.0360976" cy="207.905612" rx="79.0360976" ry="78.6505102"></ellipse>
+                    <ellipse id="Oval" stroke="#854F8B" stroke-width="8" cx="1178.80195" cy="447.515306" rx="30.6341463" ry="30.4846939"></ellipse>
+                    <ellipse id="Oval" stroke="#AE4989" stroke-width="8" cx="996.222439" cy="317.040816" rx="30.6341463" ry="30.4846939"></ellipse>
+                    <ellipse id="Oval" stroke="#D0417E" stroke-width="8" cx="813.642927" cy="447.515306" rx="30.6341463" ry="30.4846939"></ellipse>
+                    <ellipse id="Oval" stroke="#E55779" stroke-width="8" cx="628.612683" cy="317.040816" rx="30.6341463" ry="30.4846939"></ellipse>
+                    <ellipse id="Oval" stroke="#EF7A6B" stroke-width="8" cx="446.033171" cy="447.515306" rx="30.6341463" ry="30.4846939"></ellipse>
+                    <ellipse id="Oval" stroke="#F49864" stroke-width="8" cx="263.453659" cy="317.040816" rx="30.6341463" ry="30.4846939"></ellipse>
+                    <ellipse id="Oval" stroke="#FDB645" stroke-width="8" cx="79.6487805" cy="447.515306" rx="30.6341463" ry="30.4846939"></ellipse>
+                    <path d="M79.9130903,410.32398 L79.9130903,290.82398" id="Line-2" stroke="#FDB645" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M262.492602,285.946429 L262.492602,166.446429" id="Line-2" stroke="#F49864" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M445.072115,416.420918 L445.072115,296.920918" id="Line-2" stroke="#EF7A6B" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M626.426261,285.946429 L626.426261,166.446429" id="Line-2" stroke="#E55779" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M812.681871,416.420918 L812.681871,296.920918" id="Line-2" stroke="#D0417E" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M995.261383,281.068878 L995.261383,161.568878" id="Line-2" stroke="#AE4989" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M1176.61553,410.32398 L1176.61553,290.82398" id="Line-2" stroke="#854F8B" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M159.502885,116.141597 L184.010202,116.141597 C179.662917,129.01737 177.489275,138.648847 177.489275,145.036031 C177.489275,151.423215 179.662917,160.489016 184.010202,172.233434 L159.502885,172.233434 L165.91296,145.762371 L159.502885,116.141597 Z" id="Rectangle-2" fill="url(#linearGradient-1)" transform="translate(171.756543, 144.187515) rotate(51.000000) translate(-171.756543, -144.187515) "></path>
+                    <path d="M523.747173,113.331698 L548.25449,113.331698 C543.907205,126.207471 541.733563,135.838949 541.733563,142.226132 C541.733563,148.613316 544.171281,158.442086 549.046716,171.712443 L523.091606,170.430564 L530.157248,142.952473 L523.747173,113.331698 Z" id="Rectangle-2" fill="url(#linearGradient-2)" transform="translate(536.069161, 142.522071) rotate(51.000000) translate(-536.069161, -142.522071) "></path>
+                    <path d="M889.820933,116.141597 L914.32825,116.141597 C909.980966,129.01737 907.807323,138.648847 907.807323,145.036031 C907.807323,151.423215 909.980966,160.489016 914.32825,172.233434 L889.820933,172.233434 L896.231009,145.762371 L889.820933,116.141597 Z" id="Rectangle-2" fill="url(#linearGradient-3)" transform="translate(902.074592, 144.187515) rotate(51.000000) translate(-902.074592, -144.187515) "></path>
+                    <path d="M343.340396,112.696024 L367.847713,112.696024 C363.500428,125.571797 361.326786,135.203275 361.326786,141.590458 C361.326786,147.977642 363.257078,158.246708 367.117662,172.397656 L343.340396,168.787861 L349.750471,142.316799 L343.340396,112.696024 Z" id="Rectangle-2" fill="url(#linearGradient-4)" transform="translate(355.594055, 142.546840) rotate(-60.000000) translate(-355.594055, -142.546840) "></path>
+                    <path d="M709.387065,113.598473 L733.894382,113.598473 C729.547098,126.474245 727.373455,136.105723 727.373455,142.492907 C727.373455,148.88009 729.547098,157.945891 733.894382,169.69031 L709.387065,169.69031 L715.797141,143.219247 L709.387065,113.598473 Z" id="Rectangle-2" fill="url(#linearGradient-5)" transform="translate(721.640724, 141.644391) rotate(-60.000000) translate(-721.640724, -141.644391) "></path>
+                    <path d="M1072.91008,118.476024 L1097.41739,118.476024 C1093.07011,131.351796 1090.89647,140.983274 1090.89647,147.370458 C1090.89647,153.757641 1093.07011,162.823442 1097.41739,174.567861 L1072.91008,174.567861 L1079.32015,148.096798 L1072.91008,118.476024 Z" id="Rectangle-2" fill="url(#linearGradient-6)" transform="translate(1085.163735, 146.521942) rotate(-60.000000) translate(-1085.163735, -146.521942) "></path>
+                    <text id="O" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#4A4A4A">
+                        <tspan x="72" y="456">O</tspan>
+                    </text>
+                    <text id="H" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#4A4A4A">
+                        <tspan x="254.876098" y="327">H</tspan>
+                    </text>
+                    <text id="Na" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#4A4A4A">
+                        <tspan x="432" y="456">Na</tspan>
+                    </text>
+                    <text id="Fe" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#4A4A4A">
+                        <tspan x="617" y="327">Fe</tspan>
+                    </text>
+                    <text id="Cl" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#4A4A4A">
+                        <tspan x="802" y="456">Cl</tspan>
+                    </text>
+                    <text id="N" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#4A4A4A">
+                        <tspan x="988" y="327">N</tspan>
+                    </text>
+                    <text id="Al" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" fill="#4A4A4A">
+                        <tspan x="1168" y="456">Al</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

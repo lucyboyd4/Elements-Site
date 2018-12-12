@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Sodium</title>
+    <meta charset=“utf-8” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--cardstyle-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--cardjava-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--- LINKING OUR CSS FILE --->
+    <link href='css/elements.css' type='text/css' rel='stylesheet' />
+
+    <!---Navbar---->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+
+
+</head>
+
+<body>
+
+
+
+    <nav class="navelement">
+        <ul>
+            <a class="name-nav" href="index.html">NAME</a>
+            <a href="timeline.html">Revise</a>
+            <a href="quizes.html">Quiz</a>
+        </ul>
+    </nav>
+
+    <img class="table-element" src="img/tablebackground.png" alt="table">
+
+    <img class="elementimage" src="img/na-element.png" alt="oxygen">
+
+
+
+    <!---arrow--->
+    <div class="arrow" id="wrapper">
+        <div id="wrapper-inner">
+            <div id="scroll-down">
+                <span class="arrow-down">
+                    <!-- css generated icon -->
+                </span>
+                <span id="scroll-title">
+                    Learn More
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---revision cards--->
+
+    <div class="container" id="owl-demo" class="owl-carousel owl-theme">
+
+
+        <div class="card1 item">
+            <div class="card sticky-action">
+
+                <div class="card-image">
+                    <img src="img/na-card.png">
+                    <span class="card-title">SODIUM</span>
+                    <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+
+                </div>
+
+                <div class="card-content">
+                    <p>Key Facts</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Main Facts<i class="right">x</i></span>
+                    <h1>Na</h1>
+                    <h2>Sodium</h2>
+
+                    <ul>
+                        <li>Atomic Number</li>
+                        <li>State</li>
+                        <li>Group</li>
+                        <li>Block</li>
+                        <li>Atomic Weight</li>
+                    </ul>
+
+                    <ul>
+                        <li>11</li>
+                        <li>solid</li>
+                        <li>1</li>
+                        <li>s</li>
+                        <li>22.99</li>
+                    </ul>
+
+                </div>
+
+                <div class="card-action">
+                    <a>Download</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="card2 item">
+            <div class="card sticky-action">
+
+                <div class="card-image">
+                    <img src="img/na-info.png">
+                    <span class="card-title">SODIUM</span>
+                    <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+
+                </div>
+
+                <div class="card-content">
+                    <p>Background</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Background<i class="right">x</i></span>
+                    <p>Sodium is a soft, silvery-white, highly reactive metal. It is an alkali metal because it has a single electron in its outer shell that it readily donates, creating a positively charged ion. When isolated in metallic form it immediately oxidises upon contact with air, and violently produces hydrogen gas which may burst into flame when brought into contact with water. It is one of the highly reactive elements in its group.</p>
+                </div>
+
+                <div class="card-action">
+                    <a>Download</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card3 item">
+            <div class="card sticky-action">
+
+                <div class="card-image">
+                    <img src="img/na-discover.png">
+                    <span class="card-title">SODIUM</span>
+                    <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+
+                </div>
+
+                <div class="card-content">
+                    <p>Uses and Discovery</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Uses and Discovery<i class="right">x</i></span>
+                    <p>The most common compound of sodium is sodium chloride (table salt). It is added to food and used to de-ice roads in winter. Sodium vapor is used in streetlights and produces a brilliant yellow light.</p>
+
+
+                    <p>In 1807 Sodium was discovered by Sir Humphry Davy.</p>
+                </div>
+
+                <div class="card-action">
+                    <a>Download</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="quiz-btn-select">
+            <a href="o-quiz.html"><span>Quiz Me </span></a> </div>
+
+
+        <div class="prev">
+            <div class="column">
+                <figure><a class="link" href="hydrogen.html">prev</a></figure>
+                <span>HYDROGEN</span>
+            </div>
+        </div>
+
+        <div class="next">
+            <div class="column">
+                <figure><a class="link" href="iron.html">next</a></figure>
+                <span>IRON</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

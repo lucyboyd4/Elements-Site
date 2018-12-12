@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Oxygen</title>
+    <meta charset=“utf-8” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--cardstyle-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--cardjava-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--- LINKING OUR CSS FILE --->
+    <link href='css/elements.css' type='text/css' rel='stylesheet' />
+
+    <!---Navbar---->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+
+
+</head>
+
+<body>
+
+
+    <nav class="navelement">
+        <ul>
+            <a class="name-nav" href="index.html">NAME</a>
+            <a href="timeline.html">Revise</a>
+            <a href="quizes.html">Quiz</a>
+        </ul>
+    </nav>
+
+    <img class="table-element" src="img/tablebackground.png" alt="table">
+
+    <img class="elementimage" src="img/o-element.png" alt="oxygen">
+
+
+
+    <!---arrow--->
+    <div class="arrow" id="wrapper">
+        <div id="wrapper-inner">
+            <div id="scroll-down">
+                <span class="arrow-down">
+                    <!-- css generated icon -->
+                </span>
+                <span id="scroll-title">
+                    Learn More
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---revision cards--->
+
+    <div class="container" id="owl-demo" class="owl-carousel owl-theme">
+
+
+        <div class="card1 item">
+            <div class="card sticky-action">
+
+                <div class="card-image">
+                    <img src="img/card.png">
+                    <span class="card-title">KEY FACTS</span>
+                    <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+
+                </div>
+
+                <div class="card-content">
+                    <p>Summary of the element</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Main Facts<i class="right">x</i></span>
+                    <h1>O</h1>
+                    <h2>Oxygen</h2>
+
+                    <ul>
+                        <li>Atomic Number</li>
+                        <li>State</li>
+                        <li>Group</li>
+                        <li>Block</li>
+                        <li>Atomic Weight</li>
+                    </ul>
+
+                    <ul>
+                        <li>8</li>
+                        <li>gas</li>
+                        <li>16</li>
+                        <li>p</li>
+                        <li>15.999</li>
+                    </ul>
+                </div>
+
+                <div class="card-action">
+                    <a>Download</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="card2 item">
+            <div class="card sticky-action">
+
+                <div class="card-image">
+                    <img src="img/o-info.png">
+                    <span class="card-title">Background</span>
+                    <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+
+                </div>
+
+                <div class="card-content">
+                    <p>History of the element</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Background<i class="right">x</i></span>
+                    <p>Oxygen is a non-metal element and is found naturally as a molecule. Each molecule is made up of two oxygen atoms that are strongly joined together. Oxygen has low melting and boiling points, so it is in a gas state at room temperature. It is a member of the chalcogen group on the periodic table and is an oxidizing agent that readily forms oxides with most elements as well as with other compounds.</p>
+                </div>
+
+                <div class="card-action">
+                    <a>Download</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card3 item">
+            <div class="card sticky-action">
+
+                <div class="card-image">
+                    <img src="img/o-discover.png">
+                    <span class="card-title">USES AND DISCOVERY</span>
+                    <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+
+                </div>
+
+                <div class="card-content">
+                    <p>Who and what?</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title">Uses and Discovery<i class="right">x</i></span>
+                    <p>Oxygen is vital for respiration, which is the process that transfers energy from glucose to cells. It is also necessary for burning to occur. This will only happen when the mixture of fuel and oxygen is hot enough.</p>
+
+                    <p>In 1772 Oxygen was discovered by a Swedish Chemist called Carl Wilhelm Scheele</p>
+                </div>
+
+                <div class="card-action">
+                    <a>Download</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="quiz-btn-select">
+            <a href="o-quiz.html"><span>Quiz Me </span></a> </div>
+
+        <div class="prev">
+            <div class="column">
+                <figure><a class="link" href="aluminium.html">prev</a></figure>
+                <span>ALUMINIUM</span>
+            </div>
+        </div>
+
+        <div class="next">
+            <div class="column">
+                <figure><a class="link" href="hydrogen.html">next</a></figure>
+                <span>HYDROGEN</span>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
